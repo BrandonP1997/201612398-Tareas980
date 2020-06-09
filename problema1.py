@@ -1,7 +1,4 @@
 
-print('Ingrese el numero:')
-N = int(input())
-
 def division(num):
     if(num>1):
         dividendos = list(range(1,num))
@@ -14,9 +11,6 @@ def division(num):
         Sparcial = 0
     return Sparcial     
           
-print('La division es: ', division(N))
-
-
 def BuscarNumsP(num):
     posibles = list(range(2,num + 1))
     NPer = []
@@ -32,7 +26,6 @@ def BuscarNumsP(num):
             NPer.append(i)
 
     return NPer            
-print('Los numeros perfectos son:',BuscarNumsP(N))
 
 def BuscarNumsA(num):
     posibles = list(range(2,num + 1))
@@ -53,6 +46,5 @@ def BuscarNumsA(num):
             if (division(i)==posibles[j]):
                 friends.append((posibles[j], NA[j]))
     return friends  
-        
-print('Los numeros amigos son',BuscarNumsA(N))
+
 
