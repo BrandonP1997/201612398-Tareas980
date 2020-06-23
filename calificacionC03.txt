@@ -1,0 +1,8 @@
+Rubrica
+	Transmision de archivos:	/25
+	Grabar audio:			/25
+	Reproduccion Audio:		/25
+	Comunicacion Cliente-servidor:	/25
+*************************************************
+	Total:				0/100
+	NO entrego
